@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-import { services } from '../data/site';
+import { services, telegramLink } from '../data/site';
 import { Reveal } from './Reveal';
 import { SectionHeading } from './SectionHeading';
 
@@ -29,10 +29,15 @@ export function ServicesSection() {
                 </div>
                 <h3 className="mt-8 font-display text-2xl font-bold text-white">{service.title}</h3>
                 <p className="mt-4 flex-1 text-sm leading-7 text-slate-300">{service.description}</p>
-                <div className="mt-8 inline-flex items-center gap-2 text-sm text-slate-200">
+                <a
+                  className="mt-8 inline-flex items-center gap-2 text-sm text-slate-200 transition hover:text-white"
+                  href={telegramLink}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Подробнее обсудим в Telegram
                   <ArrowUpRight size={16} className="transition group-hover:translate-x-1 group-hover:-translate-y-1" />
-                </div>
+                </a>
               </motion.article>
             </Reveal>
           ))}
@@ -41,4 +46,3 @@ export function ServicesSection() {
     </section>
   );
 }
-
