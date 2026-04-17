@@ -79,10 +79,10 @@ npm run build
 Файл: `vite.config.ts`
 
 ```ts
-const githubPagesBase = '/devpair-site/';
+const githubPagesBase = '/site/';
 ```
 
-Если ваш репозиторий называется иначе, замените `'/devpair-site/'` на путь вашего репозитория, например:
+Если ваш репозиторий называется иначе, замените `'/site/'` на путь вашего репозитория, например:
 
 ```ts
 const githubPagesBase = '/my-repo-name/';
