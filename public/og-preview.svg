@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#070816"/>
+  <circle cx="235" cy="180" r="190" fill="#6D7CFF" fill-opacity="0.18"/>
+  <circle cx="935" cy="120" r="180" fill="#8B5CF6" fill-opacity="0.18"/>
+  <circle cx="912" cy="560" r="220" fill="#4CC9F0" fill-opacity="0.12"/>
+  <rect x="78" y="74" width="1044" height="482" rx="36" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.12"/>
+  <path d="M138 462V170H354C475 170 551 232 551 316C551 400 475 462 354 462H219V462H138ZM219 396H343C406 396 463 369 463 316C463 263 406 236 343 236H219V396Z" fill="white"/>
+  <path d="M621 170H705V313L872 170H971L812 319L983 462H875L705 325V462H621V170Z" fill="white"/>
+  <text x="138" y="532" fill="#C7D2FE" font-family="Arial, sans-serif" font-size="36">Сайты, Telegram-боты и автоматизация для бизнеса</text>
+</svg>
+
