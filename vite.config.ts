@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const githubPagesBase = '/site/';
-
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [react()],
-  base: command === 'serve' ? '/' : githubPagesBase,
-}));
+  base: '/',
+});
